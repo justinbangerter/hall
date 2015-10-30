@@ -6,7 +6,7 @@ I read a lot of public domain literature online while on my phone.
 I want to make it easier to read.
 
 ## License
-This project is licensed under the [Peer Production License|http://p2pfoundation.net/Peer_Production_License].
+This project is licensed under the [Peer Production License](http://p2pfoundation.net/Peer_Production_License).
 
 This is a hedge against the gentrification of intellectual property.
 
