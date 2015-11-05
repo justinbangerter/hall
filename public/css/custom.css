@@ -1,0 +1,56 @@
+body { font-family: "Fanwood"; }
+body { background-color: #FFF9E6; }
+html { font-size: 80%; }
+
+h1 { font-size: 4.2rem; }
+h2 { font-size: 3.6rem; }
+h3 { font-size: 3.0rem; }
+h4 { font-size: 2.4rem; }
+h5 { font-size: 1.8rem; }
+h6 { font-size: 1.5rem; }
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+    html { font-size: 80%; }
+}
+
+@media (min-width: 500px) {
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+    html { font-size: 100%; }
+}
+
+@media (min-width: 650px) {
+}
+
+@media (min-width: 700px) {
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+}
+
+@media (min-width: 850px) {
+}
+
+@media (min-width: 900px) {
+}
+
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
+/* Fix stuff from skeleton */
+a[href], a[href]:hover { color: #1EAEDB; }
+a, a:hover { color: black; }
+
+.f-red { color: red; }
+.f-blue { color: blue; }
+.f-green { color: green; }
+
+.center { text-align: center; }
