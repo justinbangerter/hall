@@ -1,5 +1,6 @@
-body { font-family: "Fanwood"; }
+body { font-family: GIRegular, sans-serif; }
 body { background-color: #FFF9E6; }
+body { line-height: 2em; }
 html { font-size: 80%; }
 
 h1 { font-size: 4.2rem; }
@@ -8,6 +9,8 @@ h3 { font-size: 3.0rem; }
 h4 { font-size: 2.4rem; }
 h5 { font-size: 1.8rem; }
 h6 { font-size: 1.5rem; }
+
+h1, h2, h3, h4, h5, h6 { text-align: center; }
 
 /* Larger than mobile */
 @media (min-width: 400px) {
@@ -46,11 +49,31 @@ h6 { font-size: 1.5rem; }
 @media (min-width: 1200px) {}
 
 /* Fix stuff from skeleton */
-a[href], a[href]:hover { color: #1EAEDB; }
+/*a[href], a[href]:hover { color: #1EAEDB; }*/
+a[href], a[href]:hover { color: #000; }
+a[href], a[href]:hover { text-decoration: underline dotted; }
 a, a:hover { color: black; }
+a { text-decoration: none; }
 
 .f-red { color: red; }
 .f-blue { color: blue; }
 .f-green { color: green; }
 
 .center { text-align: center; }
+.small { font-size: 0.6em; }
+
+.toc-container { text-align: center; }
+.toc-container { margin: 2em 0; }
+.toc { text-align: left; }
+.toc { display: inline-block; }
+
+.toc li { list-style: none; }
+.toc li { text-underline: none; }
+.toc li { margin: 0; }
+.toc li { font-size: 0.9em; }
+
+.intro { margin: 2em 0; }
+.intro { text-align: center; }
+.intro .title { font-size: 1.2em; }
+.intro .author { font-size: 0.9em; }
+.intro .publisher { font-size: 0.9em; }
